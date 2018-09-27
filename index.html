@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hola</title>
+    <link rel = "stylesheet" href = "css / animate.css"> <!--css de libreria antes que los css propios-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" href="app.css">
+    
 </head>
 <body>
    <div class="primeraPagina">
@@ -52,14 +54,19 @@
        </div>
        <div class="row">
            <div class="col l6">
-                <a  onclick="saludo()" id= "botom1" class="waves-effect waves-light btn-large">Button</a>
+                <a   id= "botom1" class="waves-effect waves-light btn-large">Button</a>
            </div>
            <div class="col l6">
                 <a onclick="saludo2()"  id= "botom2" class="waves-effect waves-light btn-large">Button</a>
            </div>
        </div>
    </div>
-   <!--sfjkjfl-->
+   <!-- jquery siempre primero despues otras ejm: biblioteca wow--> 
+   <script src="jquery.min.js"></script>
+   
+   
+    
 <script src="app.js"></script>
+
 </body>
 </html>
